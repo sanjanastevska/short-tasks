@@ -1,7 +1,3 @@
-// A twin of a word is a word written with the same letters(case insensitive) but
-//not necesserily in the same order.
-//For example Silent is a twin of Listen.
-
 const isTwin = (a, b) => {
     stringA = a.toLowerCase().split("").sort().join("");
     stringB = b.toLowerCase().split("").sort().join("");
@@ -13,4 +9,4 @@ const isTwin = (a, b) => {
     }
 };
 
-isTwin('Silent', 'listenu');
+isTwin('Silent', 'listen');
